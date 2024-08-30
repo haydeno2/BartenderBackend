@@ -1,0 +1,39 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px; /* Ensure header height is correct */
+  background-color: #007bff;
+  z-index: 1000; /* Keep header above other content */
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.button-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.button-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  max-height: 80vh; 
+  overflow-y: auto;
+  padding: 10px;
+  
+}
